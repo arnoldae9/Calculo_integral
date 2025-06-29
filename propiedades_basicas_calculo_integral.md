@@ -8,7 +8,10 @@ Las propiedades básicas de la integral definida son reglas fundamentales que pe
 
 La integral es un operador lineal, lo que significa que se puede factorizar constantes y separar sumas:
 
-- $\displaystyle\int_{a}^{b} k·f(x)dx = k·\int_{a}^{b} f(x)dx$ (donde k es una constante)
+```math
+\displaystyle\int_{a}^{b} k·f(x)dx = k·\int_{a}^{b} f(x)dx (donde k es una constante)
+```
+
 - $\displaystyle\int_{a}^{b} [f(x) + g(x)]dx = \int_{a}^{b} f(x)dx + \int_{a}^{b} g(x)dx$
 
 **Ejemplos:**
