@@ -8,14 +8,12 @@ Las propiedades básicas de la integral definida son reglas fundamentales que pe
 
 La integral es un operador lineal, lo que significa que se puede factorizar constantes y separar sumas:
 
-\\begin{equation}
-\displaystyle\int_{a}^{b} k·f(x)dx = k·\int_{a}^{b} f(x)dx (donde k es una constante)
-\\end{equation}
+- $\displaystyle\int_{a}^{b} kf(x)dx = k\int_{a}^{b} f(x)dx$ (donde k es una constante)
 
 - $\displaystyle\int_{a}^{b} [f(x) + g(x)]dx = \int_{a}^{b} f(x)dx + \int_{a}^{b} g(x)dx$
 
 **Ejemplos:**
-- $\displaystyle\int_{0}^{2} 3x^2 dx = 3\int_{0}^{2} x^2 dx = 3\left[\dfrac{x^3}{3}\right]₀² = 3(8/3) = 8$
+- $\displaystyle\int_{0}^{2} 3x^2 dx = 3\int_{0}^{2} x^2 dx = 3\left[\dfrac{x^3}{3}\right]_0^2 = 3(8/3) = 8$
 - \int[1,3] (2x + 5)dx = \int[1,3] 2x dx + \int[1,3] 5 dx = 2·\int[1,3] x dx + 5·\int[1,3] 1 dx = 2·[x²/2]₁³ + 5·[x]₁³ = 2·(9/2 - 1/2) + 5·(3-1) = 8 + 10 = 18
 
 ### Propiedad de Inversión de Límites
