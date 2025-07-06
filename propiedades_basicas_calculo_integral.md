@@ -7,8 +7,8 @@ Las propiedades básicas de la integral definida son reglas fundamentales que pe
 ### Linealidad de la Integral
 
 La integral es un operador lineal, lo que significa que se puede factorizar constantes y separar sumas:
-
-- $\int_a^b k \cdot f(x)dx = k \cdot \int_a^b f(x)dx$ (donde $k$ es una constante)
+<!-- TODO: agregar a todas las integrales \displaystyle y compilar con pandoc -->
+- $\displaystyle \int_a^b k \cdot f(x)dx = k \cdot \int_a^b f(x)dx$ (donde $k$ es una constante)
 - $\int_a^b [f(x) + g(x)]dx = \int_a^b f(x)dx + \int_a^b g(x)dx$
 
 **Ejemplos:**
